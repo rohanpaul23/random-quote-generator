@@ -9,6 +9,7 @@ import {
   AiFillInstagram
 } from "react-icons/ai";
 
+// Random Quote Generator
 const Quotes = () => {
   const [fetchNewQuote, setFetchNewQuote] = useState(false);
   const [quote, setQuote] = useState({});
